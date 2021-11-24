@@ -1,6 +1,7 @@
 # aws-comprehend-folktales-project
 Contains instructions and example code required to perform natural language processes using the AWS Comprehend machine learning service in Python.
 
+# An Introduction
 Due to the path-dependent and ever-evolving nature of machine learning, we seek to uncover the nuances and potential biases within the service. Understanding such weaknesses is an important component of any data science project. The many real-world applications of Comprehend have the potential to severely underperform in the presence of bias, leading to poor analysis and weak results that can then be used throughout daily life, having potentially numerous ripple effects. 
 
 One common bias within machine learning models is a lower confidence in processing non-Western (e.g. American, Western European) information. Within the scope of NER, this may include processing names, cities, and other proper entities. Because of this topic’s important implications for Comprehend’s outcomes, we feel that this is a relevant and necessary investigation.
