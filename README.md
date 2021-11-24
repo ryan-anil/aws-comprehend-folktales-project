@@ -31,6 +31,10 @@ Folder has four Jupyter notebooks with code and instructions for pre-processing 
 3. FolktalesDataCalculations.ipynb
 4. FolktalesDataAnalysis.ipynb 
 
+## Folktales folder
+
+This folder contains the full text files of the folk tales, one corresponding to each geographic region. This is the text that was read in by Comprehend to yield the NER results. 
+
 ## ner-results
 
 This folder contains the outfut csv files for the Named Entity Recognition (NER) using Comprehend. The textual data is classified into into different categories including person, date, quantity, title, and location. Additionally, Comprehend attaches a confidence score to each data point. The csv files within this folder include these results for Indian, German, Chinese, Russian, Arabian, and English folktales.
