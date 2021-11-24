@@ -1,4 +1,5 @@
-# aws-comprehend-folktales-project
+# aws-comprehend-folktales-project : An Investigation of AWS Comprehend and its Biases
+
 Contains instructions and example code required to perform natural language processes using the AWS Comprehend machine learning service in Python.
 
 # An Introduction
