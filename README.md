@@ -11,3 +11,8 @@ In this investigation, we seek to uncover a potential [bias](https://www.technol
 Our approach uses a variety of AWS services. First, we use S3 buckets to store and organize our folk tales. We utilize Sagemaker to read in the text data, conduct exploratory data analysis, and our assessment of the NER service. Finally, we use Comprehend to analyze the folk tales for named entities. See below for architecture diagram. 
 
 ![image](https://user-images.githubusercontent.com/91302295/143170372-a95ca5fe-518e-4c91-914c-a999cae4dc75.png)
+
+
+# Contents of our Repo
+
+This section contains an outline and description of the files and folders in our repo and the purpose of each one of them.
