@@ -33,7 +33,7 @@ Folder has four Jupyter notebooks with code and instructions for pre-processing 
 
 ## Folktales folder
 
-This folder contains the full text files of the folk tales, one corresponding to each geographic region. This is the text that was read in by Comprehend to yield the NER results. 
+This folder contains the full text files of the folk tales, one corresponding to each geographic region. This text is read in by Comprehend to yield the NER results. 
 
 ## ner-results
 
