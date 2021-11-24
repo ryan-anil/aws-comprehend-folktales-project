@@ -23,6 +23,14 @@ For the scope of our project, NER through Comprehend classifies textual data fro
 
 This section contains an outline and description of the files and folders in our repo and the purpose of each one of them.
 
+## src-code folder
+
+Folder has four Jupyter notebooks with code and instructions for pre-processing textual data, using S3 buckets for organization and storage, checking the compatability of your corpus with Comprehend's requirements, using Comprehend's Detect Entities tool, and visualizing the resulting Named Entity Recognition tags and words. All notebooks are written using Python and the AWS Python SDK boto3. The four notebooks should be run in the following order:
+1. FolktalesTransformations.ipynb
+2. FolktalesComprehendRequirements.ipynb
+3. FolktalesDataCalculations.ipynb
+4. FolktalesDataAnalysis.ipynb 
+
 ## ner-results
 
 This folder contains the outfut csv files for the Named Entity Recognition (NER) using Comprehend. The textual data is classified into into different categories including person, date, quantity, title, and location. Additionally, Comprehend attaches a confidence score to each data point. The csv files within this folder include these results for Indian, German, Chinese, Russian, Arabian, and English folktales.
