@@ -13,9 +13,20 @@ Our approach uses a variety of AWS services. First, we use S3 buckets to store a
 
 ![image](https://user-images.githubusercontent.com/91302295/143170372-a95ca5fe-518e-4c91-914c-a999cae4dc75.png)
 
+# Named Entity Recognition (NER)
+
+In this project, we specifically focus on Named Entity Recognition (NER). The initial step toward information extraction is NER, which aims to locate and classify named entities in text into pre-defined classifications such as expressions of time, percentages, groups, names of people, quantifiers and quantities, monetary figures, and so on.
+
+For the scope of our project, NER through Comprehend classifies textual data from folktales into different categories including person, date, quantity, title, and location. Comprehend also attaches a confidence score to each data point. We use this information for exploratory data analyses and visualizations as well as for a regression analysis of confidence scores for pre-determined western story binary variable to evaluate cultural biases.
 
 # Contents of our Repo
 
 This section contains an outline and description of the files and folders in our repo and the purpose of each one of them.
 
-## ner
+## ner-results
+
+This folder contains the outfut csv files for the Named Entity Recognition (NER) using Comprehend. The textual data is classified into into different categories including person, date, quantity, title, and location. Additionally, Comprehend attaches a confidence score to each data point. The csv files within this folder include these results for Indian, German, Chinese, Russian, Arabian, and English folktales.
+
+## Analysis-Testing.ipynb
+
+This file contains code used for explatory analyses through regression and visualizations to evaluate cultural biases in NER through Comprehend. 
